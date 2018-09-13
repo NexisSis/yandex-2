@@ -1,0 +1,11 @@
+.main{
+   &__title{
+    font-size: 18.2px;
+    font-weight: bold;
+    margin-top: 32px;
+     &_2{
+       padding-left: 5px;
+       letter-spacing: 0.5px;
+     }
+  }
+}

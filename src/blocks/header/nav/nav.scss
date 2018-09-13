@@ -1,0 +1,16 @@
+.nav{
+  margin-left: 55px;
+  width: 296px;
+  &__item{
+    text-decoration: none;
+  }
+  &__text{
+    color: #333;
+    font-weight: bold;
+    font-size: 16.8px;
+    opacity: 0.6;
+    &:hover{
+      opacity: 1;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+body{
+  margin:0;
+  font-family:Arial;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flex-jc-sb{
+  justify-content: space-between;
+}
+.flex-al-fs{
+  align-items: flex-start;
+}
+.half{
+  width: 50%;
+}
+.container{
+  width: 1376px;
+  min-width: 1373px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.line{
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  background: #F0F0F0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon-item{
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 25px;
+  position: absolute;
+  margin-left: 14px;
+  margin-top: 14px;
+}
+.icon-temperature{
+  background-image: url(../img/icon-temperature.svg);
+  @extend .icon-item;
+}
+.icon-sun{
+  background-image: url(../img/icon-sun.svg);
+  @extend .icon-item;
+}
+.icon-sun-2{
+  background-image: url(../img/icon-sun-2.svg);
+  @extend .icon-item;
+}
+.icon-more{
+  background-image: url(../img/icon-more.svg);
+  margin-left: 93px;
+  @extend .icon-item;
+}

@@ -1,0 +1,28 @@
+.card{
+  margin-top: 20px;
+  width: 666px;
+  height: 353px;
+  background-image: url(../img/card-bg.png);
+  background-size: cover;
+  border-radius: 22px;
+  &__item-1{
+    padding-left: 26px;
+    padding-top: 29px;
+    width: 340px;
+  }
+  &__text-1{
+    font-weight: bold;
+    font-size: 27px;
+    letter-spacing: 0.8px;
+    color: #333333;
+  }
+  &__text-2{
+    font-size: 14px;
+    color: #333333;
+    margin-top: 7px;
+    letter-spacing: 0.38px;
+  }
+  &__item-2{
+    margin-left:68px;
+  }
+}

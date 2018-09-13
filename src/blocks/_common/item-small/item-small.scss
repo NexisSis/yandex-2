@@ -1,0 +1,23 @@
+.item-small{
+  margin-top: 21px;
+  height: 101px;
+  margin-right: 16px;
+  width: 219px;
+  margin-bottom: 19px;
+  border-radius: 20px;
+  background: #F7F7F7;
+  &__text-1{
+    @extend .item__text-1;
+  }
+  &__text-2{
+    @extend .item__text-2;
+  }
+  &__content{
+    padding-top:68px;
+    padding-left: 15px;
+    padding-right: 15px;
+    &_t{
+      padding-top: 53px;
+    }
+  }
+}
